@@ -1,0 +1,25 @@
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    align-content: center;
+    width: 190px;
+    margin-bottom: 3px;
+    border-radius: 2px;
+    border-color: b9ec66;
+}
+
+.btn {
+    border-radius: 2px;
+    border: inherit;
+    padding: 3px;
+    font-size: 10px;
+    background-color: #b9ec66;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
